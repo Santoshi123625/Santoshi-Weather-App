@@ -11,6 +11,28 @@
     "population_proper": "16753235"
   }, 
   {
+    "city": "Bhalki", 
+    "lat": "18.0503", 
+    "lng": "77.2183", 
+    "country": "India", 
+    "iso2": "IN", 
+    "admin_name": "Karnataka", 
+    "capital": "admin", 
+    "population": "54000", 
+    "population_proper": "55000"
+  },
+  {
+    "city": "Madrasa", 
+    "lat": "11.1271", 
+    "lng": "78.6568", 
+    "country": "India", 
+    "iso2": "IN", 
+    "admin_name": "Tamil Nadu", 
+    "capital": "admin", 
+    "population": "12336047", 
+    "population_proper": "4616639"
+    },
+  {
     "city": "Mumbai", 
     "lat": "18.9667", 
     "lng": "72.8333", 

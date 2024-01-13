@@ -21,7 +21,7 @@ const SingleCardComponents = ({item, className, onClick})=>{
                 src={`http://openweathermap.org/img/wn/${item.weather[0].icon}@2x.png`}
                         />
                 <span className="day-name">{WEEKDAYS[weekdayIndex].slice(0, 3)}</span>
-                <span className="day-temp">{Math.round(item.temp.max)}°C</span>
+                <span className="day-temp">{Math.round(item.temp.max)}/{Math.round(item.temp.min)}°C</span>
             </li>
         </>
     )

@@ -24,7 +24,7 @@ const WeekInfoCardComponents = ()=>{
                 <ul className='cardList'>
                     {
                        daily && daily.length > 0 ? daily.map((item, index)=>{
-                        if (index < 7){
+                        if (index < 6){
                             return (
                                     <SingleCardComponents className={index === selectedCard ? "active" : ""} onClick={()=>{
                                         setSelectedCard(index)
